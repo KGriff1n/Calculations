@@ -5,16 +5,16 @@
 
 int main()
 {
-	int a = 10, b = 20, c = 30;
+	int a = 10, b = 20, c = 30;//assigning ints and floats
 	float d = 2.5, e = 7.5, f = 12.5;
-	float fans = a / e;
-	printf("%f\n\n", fans);
-	float fanss = e / a;
-	printf("%f\n\n", fanss);
-	int ians = c / f;
-	int ianss = f / c;
-	printf("%f\n\n", ians);
-	printf("%f\n\n", ianss);
+	float fans = a / e;// calculating
+	printf("%f\n\n", fans);//printing the end result of the calculation
+	float fanss = e / a;// calculating
+	printf("%f\n\n", fanss);//printing the end result of the calculation
+	int ians = c / f;// calculating
+	int ianss = f / c;// calculating
+	printf("%f\n\n", ians);//printing the end result of the calculation
+	printf("%f\n\n", ianss);//printing the end result of the calculation
 		return 0;
 }
 
